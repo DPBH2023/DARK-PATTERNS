@@ -1,0 +1,25 @@
+body {
+ background: linear-gradient(to right, #800000, #b03060);;
+}
+#forms{
+font-size: 40px;
+color: white;
+padding:1%;
+background-color: #400000;
+/* background: linear-gradient(to right,#400000, #800000); */
+text-decoration: solid;
+margin-top: 10%;
+text-align: center;
+position: absolute;
+top: 0%;
+left: 34%;
+border: 1px solid black;
+}
+#textarea{
+    font-size: large;
+}
+#button {
+    font-size: large;
+    height: 40px;
+    width: 100px;
+}
