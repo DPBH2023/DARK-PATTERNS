@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .dark-pattern {
+            color: red;
+            font-weight: bold;
+        }
+        .no-dark-pattern {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p>
+        {% if prediction == 1 %}
+            <span class="dark-pattern">Dark Pattern Detected!</span>
+        {% else %}
+            <span class="no-dark-pattern">No Dark Pattern Detected.</span>
+        {% endif %}
+    </p>
+
+    <!-- You can customize the message based on the prediction -->
+    <p>{{ popup_message }}</p>
+
+    <!-- You can add links, buttons, or other elements as needed -->
+
+</body>
+</html>
