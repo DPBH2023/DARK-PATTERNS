@@ -2,7 +2,7 @@
 
 Dark Patterns Buster Hackathon is a pioneering initiative aimed at equipping students with a platform to combat deceptive design practices in the digital world. Our mission is to foster a culture of ethical innovation and problem-solving, addressing the pressing issues we encounter in our online experiences.
 
-
+TEAM NAME : GOAL DIGGERS
 OUR TEAM:
 
           1. KUWAR JAIN
