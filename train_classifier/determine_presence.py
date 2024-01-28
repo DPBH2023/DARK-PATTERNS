@@ -8,8 +8,8 @@ from sklearn import metrics
 import joblib
 from joblib import dump
 
-df1 = pd.read_csv('train_classifier\ormie.csv')
-df2 = pd.read_csv('train_classifier\dark_patterns.csv')
+df1 = pd.read_csv('/Users/kuwarjain/Desktop/DARK-PATTERNS/train_classifier/dataset2.csv')
+df2 = pd.read_csv('/Users/kuwarjain/Desktop/DARK-PATTERNS/train_classifier/dataset1.csv')
 
 df1 = df1[pd.notnull(df1["Pattern String"])]
 df1 = df1[df1["classification"] == 0]
@@ -41,5 +41,5 @@ accuracy = metrics.accuracy_score(y_pred, y_test)
 print("Accuracy:", accuracy)
 
 # Save the classifier and vectorizer separately
-dump(text_clf.named_steps['clf'], 'presence_classifier_rf.joblib')
-dump(text_clf.named_steps['vect'], 'presence_vectorizer_rf.joblib')
+dump(text_clf.named_steps['clf'], 'presence_classifier_fr.joblib')
+dump(text_clf.named_steps['vect'], 'presence_vectorizer_fr.joblib')

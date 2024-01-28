@@ -11,7 +11,7 @@ from joblib import dump
 output_classification = "Pattern Category"
 
 # Load dataset
-df = pd.read_csv('train_classifier\dark_patterns.csv')
+df = pd.read_csv('/Users/kuwarjain/Desktop/DARK-PATTERNS/train_classifier/dataset1.csv')
 
 # Remove rows with missing values in the "Pattern String" column
 df = df.dropna(subset=["Pattern String"])
@@ -48,5 +48,5 @@ accuracy = metrics.accuracy_score(y_pred, y_test)
 print("Accuracy:", accuracy)
 
 # Save the classifier and vectorizer separately
-dump(text_clf.named_steps['clf'], 'category_classifier_rf.joblib')
-dump(text_clf.named_steps['vect'], 'category_vectorizer_rf.joblib')
+dump(text_clf.named_steps['clf'], 'category_classifier_fr.joblib')
+dump(text_clf.named_steps['vect'], 'category_vectorizer_fr.joblib')

@@ -3,10 +3,10 @@ from flask_cors import CORS
 from joblib import load
 import matplotlib.pyplot as plt
 
-presence_classifier = load('category_classifier_rf.joblib')
-presence_vect = load('category_vectorizer_rf.joblib')
-category_classifier = load('presence_classifier_rf.joblib')
-category_vect = load('presence_vectorizer_rf.joblib')
+presence_classifier = load('category_classifier_fr.joblib')
+presence_vect = load('category_vectorizer_fr.joblib')
+category_classifier = load('presence_classifier_fr.joblib')
+category_vect = load('presence_vectorizer_fr.joblib')
 
 app = Flask(__name__)
 CORS(app)
