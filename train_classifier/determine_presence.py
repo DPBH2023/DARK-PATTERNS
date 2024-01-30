@@ -8,8 +8,8 @@ from sklearn import metrics
 import joblib
 from joblib import dump
 
-df1 = pd.read_csv('train_classifier\ormie.csv')
-df2 = pd.read_csv('train_classifier\dark_patterns.csv')
+df1 = pd.read_csv('train_classifier\dataset2.csv')
+df2 = pd.read_csv('train_classifier\dataset1.csv')
 
 df1 = df1[pd.notnull(df1["Pattern String"])]
 df1 = df1[df1["classification"] == 0]
