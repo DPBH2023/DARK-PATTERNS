@@ -27,7 +27,7 @@ While our solution does not directly integrate OCR functionality, the dynamic re
 
 **RESULT:**
 
-The website strategically highlights dark patterns with a distinctive yellow color, effectively bringing them to the user's attention and elucidating their nature and specific types. 
+The website strategically highlights dark patterns with a distinctive red color, effectively bringing them to the user's attention and elucidating their nature and specific types. 
 Furthermore, users gain access to a detailed pie chart showcasing the percentage breakdown of different dark pattern categories. This not only serves to enhance user awareness but also provides a comprehensive visual representation, enabling users to grasp the prevalence and diversity of deceptive tactics employed on the website.
 
 **CONCLUSION:**
