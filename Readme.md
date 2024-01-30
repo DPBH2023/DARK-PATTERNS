@@ -18,7 +18,8 @@ Dark Patterns Buster Hackathon is a pioneering initiative aimed at equipping stu
 
 Dark patterns are design tricks used to influence the way users interact with software. While some dark patterns are harmless, like emphasizing signup buttons with color, others can be more malicious in problematic. In the context of online stores, dark patterns can be used to nudge buyers into buying items they might not need.
 
-**PROPOSED SOLUTION**
+**PROPOSED SOLUTION:**
+
 Utilizing A Chrome Extension For Capturing Instances Of Dark Patterns On Websites.
 
 **TECH STACK:**
