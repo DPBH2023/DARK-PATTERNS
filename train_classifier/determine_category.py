@@ -2,6 +2,7 @@
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import MultinomialNB
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import Pipeline
 from sklearn import metrics
@@ -11,7 +12,7 @@ from joblib import dump
 output_classification = "Pattern Category"
 
 # Load dataset
-df = pd.read_csv('/Users/kuwarjain/Desktop/DARK-PATTERNS/train_classifier/dataset1.csv')
+df = pd.read_csv('train_classifier\dataset1.csv')
 
 # Remove rows with missing values in the "Pattern String" column
 df = df.dropna(subset=["Pattern String"])
@@ -48,5 +49,5 @@ accuracy = metrics.accuracy_score(y_pred, y_test)
 print("Accuracy:", accuracy)
 
 # Save the classifier and vectorizer separately
-dump(text_clf.named_steps['clf'], 'category_classifier_fr.joblib')
-dump(text_clf.named_steps['vect'], 'category_vectorizer_fr.joblib')
+dump(text_clf.named_steps['clf'], 'category_classifier_bn.joblib')
+dump(text_clf.named_steps['vect'], 'category_vectorizer_bn.joblib')
