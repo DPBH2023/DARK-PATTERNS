@@ -43,7 +43,7 @@ Furthermore, users gain access to a detailed pie chart showcasing the percentage
 In summary, our project successfully tackles the crucial issue of identifying and countering deceptive user interface tactics on e-commerce platforms. Through the integration of web scraping, Natural Language Processing (NLP), and machine learning, we've created a robust Chrome extension capable of identifying and highlighting dark patterns. This empowers users to make more informed decisions during their online shopping experience.
 Looking forward, we envision further enhancements to our project, including the incorporation of advertisement analysis capabilities and scalability improvements. By continuously refining and expanding our solution, our goal is to create a lasting impact by fostering trust, transparency, and fairness in online transactions.
 
-**Installation:**
+**INSTALLATION:**
 
 To begin installation, first clone this repository, or download and unzip it.
 
