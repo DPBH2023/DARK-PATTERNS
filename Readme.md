@@ -2,6 +2,7 @@
 
 Dark Patterns Buster Hackathon is a pioneering initiative aimed at equipping students with a platform to combat deceptive design practices in the digital world. Our mission is to foster a culture of ethical innovation and problem-solving, addressing the pressing issues we encounter in our online experiences.
 
+*Presentation*: https://docs.google.com/presentation/d/1cgDHi2W7BM8UHUJut5dKnSCquAiboQQu/edit?usp=sharing&ouid=111172948022097286726&rtpof=true&sd=true
 
 DarkDetect is a Chrome extension designed to identify and highlight dark patterns present on e-commerce websites. It scans and analyzes the text content on product pages, categorizing and classifying potential dark patterns. Once identified, these deceptive elements are highlighted, accompanied by a popup that provides information about the specific dark pattern category.
 
